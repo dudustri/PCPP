@@ -1,0 +1,16 @@
+# OS:   Mac OS X; 13.0.1; x86_64
+# JVM:  Homebrew; 20.0.1
+# CPU:  null; 8 "cores"
+
+Initial run before any changes:
+
+Sequential                      9693801,4 ns  149448,91         32
+
+After changes (usings stream and parallelization):
+
+Sequential                      9693801,4 ns  149448,91         32
+IntStream                       9882583,8 ns  720931,15         32
+Parallel                        2945253,7 ns  516484,69        128
+ParallelStream                  2741158,9 ns  292771,66        128
+
+

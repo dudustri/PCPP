@@ -1,0 +1,15 @@
+Gustav results:
+
+# OS:   Mac OS X; 13.0.1; x86_64
+# JVM:  Homebrew; 20.0.1
+# CPU:  1,4 GHz Quad-Core Intel Core i5; 8 "cores"
+# Date: 2023-09-27T21:43:53+0200
+Mark 7 measurements
+hashCode()                            2,5 ns       0,00  134217728
+Point creation                       38,6 ns       0,12    8388608
+Thread's work                      4922,9 ns       8,99      65536
+Thread create                       918,4 ns      35,00     524288
+Thread create start               63510,8 ns    4059,73       4096
+Thread create start join          80890,4 ns    4504,68       4096
+ai value = 1474500000
+Uncontended lock                     18,0 ns       0,26   16777216

@@ -1,0 +1,6 @@
+# OS:   Mac OS X; 13.0.1; x86_64
+# JVM:  Homebrew; 20.0.1
+# CPU:  null; 8 "cores"
+# Date: 2023-10-05T12:02:26+0200
+incrementVolatile                     6,6 ns       0,03   67108864
+incrementNonVolatile                  2,4 ns       0,01  134217728
